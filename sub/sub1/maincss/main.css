@@ -1,0 +1,96 @@
+@charset "utf-8";
+
+/*base*/
+body,ul,li,ol,p,h1,h2,h3,h4,h5,h6,dl,dt,dd{margin:0;padding:0;}
+body{font:normal 16px "SUITE", "GLD Display";background: #000;}
+img{border:0;vertical-align: top;}
+li{margin: 0;}
+ul{list-style: none;}
+a{text-decoration: none;}
+
+#wrap{width:100%;overflow: hidden;}
+
+
+/*contents*/
+
+/*content1*/
+.cont1{position: relative;}
+.cont1 h2{color: #fff;position: absolute;bottom: -25px;left: 80px;font-size: 48px;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);}
+.cont1 img{width: 100%;}
+
+/*content2*/
+.cont2{background: #E8E8E8;padding: 60px;box-sizing: border-box;width: 100%;}
+.cont2_in{width:100%;overflow: hidden;}                                                                                                                                                                                                                                                                             
+.cont2_in .tab_menu2{width: 100%;height:50px;}
+.cont2_in .tab_menu2 ul{width: 100%;}
+.cont2_in .tab_menu2 ul li{float:left;width:20%;height:50px;}
+.cont2_in .tab_menu2 ul li a{display: block;border:1px solid #E8E8E8;color: #000;width:100%;height:50px;text-align: center;line-height: 50px;border-left:none;box-sizing: border-box;font-weight: bold;}
+.cont2_in .tab_menu2 ul li a:hover{color: #a90000;}
+
+.cont2_in .tab_menu2 ul li:first-child a{border-left:1px solid #E8E8E8;}
+.cont2_in .tab_menu2 ul li.on a{border:1px solid #E8E8E8;border-bottom:1px solid #000;height:51px;}
+
+.cont2_in .tab_cont2{width:100%;overflow: hidden;border:1px solid #E8E8E8;color: #000;position: relative;}
+.cont2_in .tab_cont2 div{width: 100%;border:1px solid #E8E8E8;box-sizing: border-box;overflow: hidden;margin:0px auto;width:969px;padding: 15px;}
+
+
+/*tab1*/ 
+.cont2_in .tab_cont2 div h2 img{width: 100%;}
+.cont2_in .tab_cont2 div.t_c2_1 ul{}
+.cont2_in .tab_cont2 div.t_c2_1 .tab1_color{margin-top: 20px;}
+.cont2_in .tab_cont2 div.t_c2_1 .tab1_color li
+{float: left;border: 3px solid #d7d7d7;border-radius: 50%;height: 30px;width: 30px;
+  position: relative;left: 50%;transform: translate(-50%);}
+.cont2_in .tab_cont2 div.t_c2_1 .tab1_color li:first-child{margin-left: -20px;background: #000;}
+.cont2_in .tab_cont2 div.t_c2_1 .tab1_color li:last-child{margin-left: 20px;background: #a90000;}
+
+.cont2_in .tab_cont2 div.t_c2_1 .tab1_title{margin-top: 80px;text-align: center;}
+.cont2_in .tab_cont2 div.t_c2_1 .tab1_btn span{border: 4px solid #000;border-radius: 30px;padding: 12px;font-weight: bold;}
+
+/*tab3*/
+.cont2_in .tab_cont2 div.t_c2_3{overflow: hidden;margin: 0px auto;width: 100%;}
+.cont2_in .tab_cont2 div.t_c2_3 .t_c2_3_in{position: relative;border-top: 2px solid rgba(0, 0, 0, 0.4);box-sizing: border-box;
+  width: 100%;overflow: hidden;}
+.cont2_in .tab_cont2 div.t_c2_3 .t_c2_3_in:last-child{border-bottom: 2px solid rgba(0, 0, 0, 0.4);box-sizing: border-box;
+    width: 100%;}
+.cont2_in .tab_cont2 div.t_c2_3 .t_c2_3_in .title_h2{}
+
+  /*+,- 아이콘*/
+.cont2_in .tab_cont2 div.t_c2_3 .ic_img{width: 24px;height: 24px;}
+.cont2_in .tab_cont2 div.t_c2_3 .ic_img1{width: 24px;height: 24px;}
+.cont2_in .tab_cont2 div.t_c2_3 span{position: absolute;top: 20px;right: 0px;}
+
+.cont2_in .tab_cont2 div.t_c2_3 .t_c2_3_sub li{margin-top: 20px;border-top: 1px solid rgba(0, 0, 0, 0.1);}
+.cont2_in .tab_cont2 div.t_c2_3 .t_c2_3_sub li:last-child{margin-bottom: 0px;}
+.cont2_in .tab_cont2 div.t_c2_3 .t_c2_3_sub h3{margin-top: 20px;}
+.cont2_in .tab_cont2 div.t_c2_3 .t_c2_3_sub p{margin-top: 20px;}
+
+
+/*tab4*/
+.t_c2_4{width: 100%;overflow: hidden;max-width: 100%;}
+#columns{width: 100%;}
+#columns figure {display: inline-block;border: 1px solid rgba(0, 0, 0, 0.2);margin: 0;
+  margin-bottom: 15px;padding: 10px;box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);}
+#columns figure img {width: 100%;}
+#columns figure figcaption {border: 1px solid rgba(0, 0, 0, 0.2);padding: 10px;margin-top: 11px;
+}
+
+/*tab5*/
+.t_c2_5{overflow: hidden;width: 100%;text-align: center;max-width: 100%;/* 요소의 최대 가로 너비를 100%로 설정 */}
+.t_c2_5 iframe{ 
+  width: 100%;
+  display: block;
+  margin: 20px auto; /* 중앙 정렬을 위한 margin 추가 */
+  }
+.cont2_in .tab_cont2 div.t_c2_2 .t_c2_2_in>.t2_txt p{padding: 20px;margin: 120px 0;box-sizing: border-box;}
+
+
+
+/*content3*/
+.cont3{overflow: hidden;color: #fff;width: 100%}
+.cont3 ul{margin: 80px auto;width: 100%;box-sizing: border-box;}
+.cont3 li{float: left;text-align: center;}
+.cont3 li:nth-child(3){margin-bottom: 80px;}
+.cont3 li{width: 33.33333%;}
+
